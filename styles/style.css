@@ -46,7 +46,6 @@ header{
     line-height: 30px;
 }
 .banner_photo_container{
-    border: 2px solid black;
     display: flex;
     align-items: end;
 }
@@ -54,3 +53,5 @@ header{
     height: 600px;
   
 }
+
+/* header end */
