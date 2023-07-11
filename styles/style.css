@@ -70,7 +70,10 @@ header{
 }
 
 /* header end */
-/* feature section star */
+/* feature section start */
+.feature{
+    padding-top: 170px;
+}
 .feature_header{
     width: 50%;
     margin: auto;
@@ -133,3 +136,5 @@ header{
     font-size: 20px;
     font-weight: 600;
 }
+
+/* feature section end */
