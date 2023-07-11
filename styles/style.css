@@ -86,7 +86,7 @@ nav a:hover{
     align-items: end;
     justify-content: space-around;
     padding: 50px 200px 0;
-    gap: 90px;
+    gap: 120px;
 }
 .banner_left_box{
     display: flex;
