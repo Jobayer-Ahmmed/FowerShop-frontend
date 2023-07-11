@@ -50,7 +50,7 @@ nav{
     align-items: center;
     height: 80px;
     width: 100%;
-    background-image: linear-gradient(rgba(38, 25, 115, 0.882)0%, rgba(82, 93, 115, 0.825)80%);
+    background-image: linear-gradient(rgba(38, 25, 115, 0.822)0%, rgba(82, 93, 115, 0.738)80%);
 }
 nav .logo{
     color: #fff;
@@ -209,7 +209,7 @@ nav a:hover{
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    padding: 80px 160px
+    padding: 80px 130px
 }
 
 .feature_footer_box img{
@@ -220,7 +220,7 @@ nav a:hover{
 }
 .feature_footer_box p{
     color: rgba(39, 39, 39, 0.80);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 }
 
