@@ -49,7 +49,7 @@ nav{
     align-items: center;
     height: 80px;
     width: 100%;
-    background-image: linear-gradient(rgb(38, 25, 115)0%, rgb(82, 93, 115)80%);
+    background-image: linear-gradient(rgba(38, 25, 115, 0.882)0%, rgba(82, 93, 115, 0.825)80%);
 }
 nav .logo{
     color: #fff;
