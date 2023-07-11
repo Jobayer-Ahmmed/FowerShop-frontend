@@ -15,6 +15,7 @@
     border-radius: 8px;
     background-color: #E55473;
     color: #fff;
+    cursor: pointer;
 }
 .title{
     color: #272727;
@@ -266,7 +267,7 @@ nav a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 120px 200px;
+    padding: 120px 160px;
     text-align: center;
     margin-top: 128px;
     border-radius: 8px;
@@ -284,6 +285,7 @@ nav a:hover{
     outline: none;
     border-radius: 8px;
     padding: 20px;
+    margin-right: 8px;
 }
 
 
