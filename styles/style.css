@@ -50,7 +50,7 @@ nav{
     align-items: center;
     height: 80px;
     width: 100%;
-    background-image: linear-gradient(rgba(38, 25, 115, 0.822)0%, rgba(82, 93, 115, 0.738)80%);
+    background-image: linear-gradient(rgba(38, 25, 115, 0.8)0%, rgba(55, 71, 103, 0.7)80%);
 }
 nav .logo{
     color: #fff;
@@ -70,12 +70,12 @@ nav a{
     color: #fff;
     font-size: 20px;
     padding: 6px 24px;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     border-radius: 3px;
-    transition: .6s;
+    transition: .7s;
 }
 nav a:hover{
-    border: 1px solid #fff;
+    border: 2px solid #fff;
 }
 /* navbar end */
 
