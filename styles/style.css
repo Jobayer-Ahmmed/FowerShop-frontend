@@ -43,6 +43,7 @@ section{
 
 /* navbar start */
 nav{
+    position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -84,7 +85,7 @@ nav a:hover{
     display: flex;
     align-items: end;
     justify-content: space-around;
-    padding: 50px 230px 0;
+    padding: 50px 200px 0;
     gap: 90px;
 }
 .banner_left_box{
@@ -113,7 +114,7 @@ nav a:hover{
 .decoration{
     text-align: center;
     background-color: #f7fb772c;
-    padding: 120px 170px;
+    padding: 120px 200px;
 }
 .decoration_info{
     width: 50%;
@@ -155,7 +156,9 @@ nav a:hover{
 /* decoration section end */
 /* feature section start */
 .feature{
+    padding: 0 200px;
     padding-top: 110px;
+
 }
 .feature_header{
     width: 50%;
@@ -172,7 +175,7 @@ nav a:hover{
     text-align: center;
 }
 .feature_img1, .feature_img2, .feature_img3 {
-    width: 375px;
+    width: 360px;
     height: 500px;
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(167, 33, 98, 0.15);
@@ -190,7 +193,7 @@ nav a:hover{
 }
 
 .feature_containers img{    
-    width: 300px;
+    width: 270px;
 }
 .tree_title{
     color: #272727;
@@ -200,7 +203,7 @@ nav a:hover{
 .feature_footer{
     border-radius: 8px;
     background-color: rgba(39, 39, 39, 0.05);
-    margin: 0 170px 120px 170px;
+    margin-bottom: 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -228,18 +231,18 @@ nav a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px 240px;
-    gap: 150px;
+    padding: 100px 270px;
+    gap: 80px;
     text-align: center;
 }
 .deal_description{
     width: 60%;
 }
 
-/* hot_section end */
+/* hot_deal section end */
 /* social section start */
 .social{
-    padding: 120px 170px;
+    padding: 120px 200px;
 }
 .instagram{
     width: 50%;
