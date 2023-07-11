@@ -47,7 +47,7 @@ header{
     display: flex;
     align-items: end;
     justify-content: space-around;
-    padding: 50px 240px 0;
+    padding: 50px 230px 0;
     gap: 90px;
 }
 .banner_left_box{
@@ -74,12 +74,13 @@ header{
 /* header end */
 /* feature section start */
 .feature{
-    padding-top: 170px;
+    padding-top: 110px;
 }
 .feature_header{
     width: 50%;
     margin: auto;
 }
+
 .feature_containers{
     display: flex;
     justify-content: center;
@@ -200,3 +201,28 @@ header{
     border-radius: 8px;
     padding: 20px;
 }
+
+/* social section end */
+/* footer start */
+footer{
+    /* background-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.9)); */
+    background-color: #111010;
+    text-align: center;
+    color: #fff;
+    padding: 120px 500px;
+}
+.flower_shop h1{
+    color: #fff;
+}
+.flower_shop p{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.flower_shop .copy_right{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
+
