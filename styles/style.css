@@ -40,8 +40,45 @@ section{
    color:#E55473;
 }
 
+
+/* navbar start */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-image: linear-gradient(rgb(38, 25, 115)0%, rgb(82, 93, 115)80%);
+}
+nav .logo{
+    color: #fff;
+    font-size: 35px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 6px 24px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    transition: .6s;
+}
+nav a:hover{
+    border: 1px solid #fff;
+}
+/* navbar end */
+
 /* header start */
-header{
+.banner{
     height: 100vh;
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -72,6 +109,50 @@ header{
 }
 
 /* header end */
+/* decoration section start */
+.decoration{
+    text-align: center;
+    background-color: #f7fb772c;
+    padding: 120px 170px;
+}
+.decoration_info{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.decoration_info h1{
+    line-height: 20px;
+}
+.decoration_containers_left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.decoration_containers_right{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.decoration_container{
+    width: 350px;
+    height: 500px;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+.decoration_container:hover{
+    box-shadow: 1px 1px 10px 10px gray;
+}
+.decoration_container img{
+    width: 350px;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+}
+.decoration_container p{
+    color: black;
+}
+
+/* decoration section end */
 /* feature section start */
 .feature{
     padding-top: 110px;
@@ -195,12 +276,13 @@ header{
 }
 #input{
     width: 600px;
-    height: 55px;
+    height: 52px;
     border: none;
     outline: none;
     border-radius: 8px;
     padding: 20px;
 }
+
 
 /* social section end */
 /* footer start */
