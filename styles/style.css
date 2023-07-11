@@ -21,7 +21,6 @@
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-
 }
 .description{
     margin: 32px 0;
@@ -36,6 +35,9 @@
 section{
     min-height: 100vh;
     max-height: max-content;
+}
+.red_span{
+   color:#E55473;
 }
 
 /* header start */
@@ -112,7 +114,6 @@ header{
     color: #272727;
     font-size: 24px;
     font-weight: 700;
-    line-height: 35px;
 }
 .feature_footer{
     border-radius: 8px;
@@ -138,3 +139,64 @@ header{
 }
 
 /* feature section end */
+/* hot_deal section start */
+.hot_deal{
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 240px;
+    gap: 150px;
+    text-align: center;
+}
+.deal_description{
+    width: 60%;
+}
+
+/* hot_section end */
+/* social section start */
+.social{
+    padding: 120px 170px;
+}
+.instagram{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.instagram h1{
+    line-height: 10px;
+}
+.flowers{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flowers img{
+    width: 270px;
+}
+.subscribe{
+    background-image: url("../asset/Rectangle-9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 120px 200px;
+    text-align: center;
+    margin-top: 128px;
+    border-radius: 8px;
+}
+.subscribe h1{
+    line-height: 20px;
+}
+.subscribe p{
+    margin-bottom: 50px;
+}
+#input{
+    width: 600px;
+    height: 55px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 20px;
+}
